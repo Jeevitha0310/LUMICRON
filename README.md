@@ -59,13 +59,19 @@ This system solves these problems using **automated matching and visualization**
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 GOOGLE_SOLUTION/
 │
 ├── app.py
+├── requirements.txt        
+│
 ├── utils/
-│ └── matcher.py
+│   └── matcher.py
+│
 ├── dataset/
-│ └── Volunteer-match.xlsx
+│   └── Volunteer-match.xlsx
+│
 ├── database/
-│ └── data.db
+│   └── data.db
+│
+└── README.md
